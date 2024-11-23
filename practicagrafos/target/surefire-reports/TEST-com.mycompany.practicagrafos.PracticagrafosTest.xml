@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.practicagrafos.PracticagrafosTest" time="0.069" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\El admin\Documents\NetBeansProjects\practicagrafos\target\test-classes;C:\Users\El admin\Documents\NetBeansProjects\practicagrafos\target\classes;C:\Users\El admin\.m2\repository\esei\aed2\tads-aed-2\1.0\tads-aed-2-1.0.jar;C:\Users\El admin\.m2\repository\esei\aed1\tads-aed-1\1.0\tads-aed-1-1.0.jar;C:\Users\El admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\El admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\El admin\AppData\Local\Temp\surefire16280398204640932656\surefirebooter-20241123235835956_3.jar C:\Users\El admin\AppData\Local\Temp\surefire16280398204640932656 2024-11-23T23-58-35_859-jvmRun1 surefire-20241123235835956_1tmp surefire_0-20241123235835956_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.mycompany.practicagrafos.PracticagrafosTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\El admin\Documents\NetBeansProjects\practicagrafos\target\test-classes;C:\Users\El admin\Documents\NetBeansProjects\practicagrafos\target\classes;C:\Users\El admin\.m2\repository\esei\aed2\tads-aed-2\1.0\tads-aed-2-1.0.jar;C:\Users\El admin\.m2\repository\esei\aed1\tads-aed-1\1.0\tads-aed-1-1.0.jar;C:\Users\El admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\El admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\El admin"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\El admin\Documents\NetBeansProjects\practicagrafos"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\El admin\AppData\Local\Temp\surefire16280398204640932656\surefirebooter-20241123235835956_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="El admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-20\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\El admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ELADMI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\Users\El admin\Documents\NetBeansProjects\practicagrafos"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\ProgramData\chocolatey\bin;C:\Users\El admin\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\El admin\AppData\Local\Programs\Python\Python311\;C:\Users\El admin\AppData\Local\Microsoft\WindowsApps;C:\Users\El admin\.dotnet\tools;C:\Users\El admin\AppData\Local\atom\bin;C:\ProgramData\chocolatey\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testNORegular" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.011">
+    <system-out><![CDATA[Test No esRegular
+]]></system-out>
+  </testcase>
+  <testcase name="testNoSumidero" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[Test No esSumidero
+]]></system-out>
+  </testcase>
+  <testcase name="testPredecesores1" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.002">
+    <system-out><![CDATA[Test predecesores
+]]></system-out>
+  </testcase>
+  <testcase name="testEsCicloFalse2" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[Test 5 esCiclo
+]]></system-out>
+  </testcase>
+  <testcase name="testSumidero" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[Test esSumidero
+]]></system-out>
+  </testcase>
+  <testcase name="testHayCaminoEntreDos" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.0">
+    <system-out><![CDATA[hayCaminoEntreDos
+]]></system-out>
+  </testcase>
+  <testcase name="testgetOrdenTopologicoVacio" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[getOrdenTopologico en gVacio
+]]></system-out>
+  </testcase>
+  <testcase name="testEsConectadoDesdeVertice2" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[esConectadoDesdeVertice grafo v1
+]]></system-out>
+  </testcase>
+  <testcase name="testEsConectadoDesdeVertice3" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.0">
+    <system-out><![CDATA[esConectadoDesdeVertice grafo v1
+]]></system-out>
+  </testcase>
+  <testcase name="testSumideroVacio" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[Test grafo vacío esSumidero
+]]></system-out>
+  </testcase>
+  <testcase name="testEsCicloTrue" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[Test 2 esCiclo
+]]></system-out>
+  </testcase>
+  <testcase name="testSiRegular" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[Test esRegular
+]]></system-out>
+  </testcase>
+  <testcase name="testEsCicloFalse" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[Test esCiclo
+]]></system-out>
+  </testcase>
+  <testcase name="testEsCicloTrue2" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.0">
+    <system-out><![CDATA[Test 3 esCiclo
+]]></system-out>
+  </testcase>
+  <testcase name="testEsCicloTrue3" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[Test 4 esCiclo
+]]></system-out>
+  </testcase>
+  <testcase name="testVacioRegular" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[Test grafo vacío esRegular
+]]></system-out>
+  </testcase>
+  <testcase name="testgetOrdenTopologico2" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.0">
+    <system-out><![CDATA[getOrdenTopologico en grafo 
+[ Ourense,  Coruña,  Lugo,  Pontevedra]
+]]></system-out>
+  </testcase>
+  <testcase name="testEsConectadoDesdeVertice" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[esConectadoDesdeVertice, grafo vacio
+]]></system-out>
+  </testcase>
+  <testcase name="testgetOrdenTopologico" classname="com.mycompany.practicagrafos.PracticagrafosTest" time="0.001">
+    <system-out><![CDATA[getOrdenTopologico en grafo 
+]]></system-out>
+  </testcase>
+</testsuite>
